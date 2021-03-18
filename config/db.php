@@ -2,9 +2,9 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=mariadb:3306;dbname=testdb',
-    'username' => 'root',
-    'password' => 'secret-pw',
+    'dsn' => 'mysql:host=database-1.cq1kx9ztcx7h.ap-south-1.rds.amazonaws.com;dbname=testdb',
+    'username' => 'admin',
+    'password' => 'testtest',
     'charset' => 'utf8',
 
     // Schema cache options (for production environment)
